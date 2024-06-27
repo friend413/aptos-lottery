@@ -1,0 +1,15 @@
+[package]
+name = "lottery"
+version = "1.0.0"
+authors = []
+
+[addresses]
+mylottery="0xa2986768338b537a6ca71440273e05b6b0c12362fc063f9326fa43f5f3f982a1"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
